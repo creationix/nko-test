@@ -1,0 +1,44 @@
+{
+  "name": "nko-test",
+  "version": "1.0.0",
+  "description": "This is a test",
+  "keywords": [],
+  "author": "creationix <tim@creationix.com>",
+  "repository": "git://github.com/creationix/nko-test.git",
+  "main": "index",
+  "homepage": "https://github.com/creationix/nko-test",
+  "contributors": [{
+    "name": "creationix"
+  }],
+  "bugs": {
+    "url": "https://github.com/creationix/nko-test/issues",
+    "email": "tim@creationix.com"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "~2.1.0"
+  },
+  "licenses": [{
+    "type": "MIT",
+    "url": "http://github.com/creationix/nko-test/raw/master/LICENSE"
+  }],
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "testling": {
+    "files": "test/index.js",
+    "browsers": [
+      "ie/8..latest",
+      "firefox/16..latest",
+      "firefox/nightly",
+      "chrome/22..latest",
+      "chrome/canary",
+      "opera/12..latest",
+      "opera/next",
+      "safari/5.1..latest",
+      "ipad/6.0..latest",
+      "iphone/6.0..latest",
+      "android-browser/4.2..latest"
+    ]
+  }
+}
